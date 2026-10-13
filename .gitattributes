@@ -1,0 +1,12 @@
+# Mantém o conteúdo e as saídas dos notebooks sem conversão de quebras de linha
+*.ipynb -text
+# Documentação e rotulações
+*.md text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+# Imagens
+*.jpg binary
+*.jpeg binary
+*.png binary
+dataset.zip filter=lfs diff=lfs merge=lfs -text

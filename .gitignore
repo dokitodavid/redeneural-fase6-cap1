@@ -1,0 +1,18 @@
+# Cópias locais preservadas durante a organização da entrega
+.backup_preparacao/
+
+# O ZIP do dataset é versionado com Git LFS; a cópia extraída fica local
+*.zip
+!/dataset.zip
+/dataset/
+
+# Arquivos temporários de notebooks e Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Resultados locais de novos treinamentos
+yolov5/
+runs/
